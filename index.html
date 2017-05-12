@@ -4,13 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Template</title>
+  <title>Drawing Tutorials</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<script>
+    
+    $(document).ready(function(){
+      
+    })
+    
+  </script>-->
   <style>
     html {
       background: url("https://static1.squarespace.com/static/5770912d46c3c49b5d124e9a/t/584396f29f7456bcf352fe21/1480824564769/table+top+simple+resized.jpg?format=1500w") no-repeat;
@@ -25,6 +32,40 @@
       text-align: center;
       background-color: saddlebrown;
       color: papayawhip;
+      font-family: marckScript;
+    }
+    
+    @media(min-width: 400px){
+      img{
+        width: 300px;
+        height: 250px;
+      }
+    }
+    @media(min-width: 992px){
+      img{
+        width: 400px;
+        height: 200px;
+      }
+    }
+     @media(min-width: 1200px){
+      img{
+        width: 600px;
+        height: 300px;
+      }
+     }
+    
+    @font-face{
+      font-family: neuchaFont;
+      src: url("https://fonts.google.com/specimen/Neucha");
+    }
+    
+    @font-face{
+      font-family: marckScript;
+      src: url("https://fonts.google.com/specimen/Marck+Script");      
+    }
+    
+    p{
+      font-family: neuchaFont;
     }
     
     .jumbotron {
@@ -84,7 +125,7 @@
   <div id="head">
   <strong><h1>Head</h1></strong>
   <div class="jumbotron">
-      <p>1. Draw a circle (it doesn’t have to be perfect, just circular enough).<br>
+      <img src="head.jpg" class="img-rounded"></img><p>1. Draw a circle (it doesn’t have to be perfect, just circular enough).<br>
 2. Draw a vertical, yet curved, transparent line (you’ll want to erase it later). <br>
 3a. Towards the bottom-ish left of the circle, draw a curved line that meets the line.<br>
 3b. Do the same thing, but with the right now.<br>
@@ -97,7 +138,7 @@
   <div id="eyes">
   <strong><h1>Eyes</h1></strong>
   <div class="jumbotron">
-    <p>1. Draw a slightly downwards curve.<br>
+    <img src="eyes.jpg" class="img-rounded"></img><p>1. Draw a slightly downwards curve.<br>
 2. Do the same thing, but more to the bottom and facing upward, kinda like a reflection (make sure both lines touch each other at one end).<br>
 3. Draw a circle in the eye; this is the iris.<br>
 4a. Cartoony version: either leave the eye not colored, slightly colored, or fully color; there’s no pupil here.<br>
@@ -110,7 +151,7 @@
   <div id="ears">
   <strong><h1>Ears</h1></strong>
   <div class="jumbotron">
-    <p>Humans:<br>
+    <img src="ears.jpg" class="img-rounded"></img><p>Humans:<br>
 1. Draw the head (tutorial above).<br>
 2. To the side of the head, draw a curve that meets from the head to above the cheek.<br>
 3. Draw a slight curve in the ear, but make another short curve towards the end.<br>
@@ -151,4 +192,5 @@ Nose:<br>
   </div></div>
   </div>
 </body>
+
 </html>
